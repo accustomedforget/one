@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var r float64
+	var s float64
+	fmt.Println("请输入半径：")
+	//fmt.Scan(&r)
+	fmt.Scan(&r)
+	s = r * math.Pi
+	fmt.Println("s=", s)
+
+}
